@@ -15,7 +15,7 @@ class Radio (
     fun bajar_volumen(){
         volumen -= 5
     }
-    fun defestacion(buscar:String){
+    fun defestacion(buscar:Float){
         estacion = buscar
     }
     override fun toString(): String {
