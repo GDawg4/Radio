@@ -9,5 +9,7 @@ fun main(args: Array<String>){
             volumen = 15,
             estacion = 106.5F
     )
-    radio1.encenderoapagar()
+    println(radio1.toString())
+    radio1.bajar_volumen()
+    println(radio1.toString())
 }
