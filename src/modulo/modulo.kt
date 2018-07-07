@@ -1,5 +1,6 @@
 package modulo
-
+// crear la clase radio
+// características correspondientes
 class Radio (
         val amofm: String = "FM",
         var volumen: Int,
